@@ -1,0 +1,23 @@
+{
+  "name": "nodebasics",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "new.js",
+  "scripts": {
+    "start": "nodemon new.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divygupta208/nodebasics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divygupta208/nodebasics/issues"
+  },
+  "homepage": "https://github.com/Divygupta208/nodebasics#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
