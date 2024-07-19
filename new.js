@@ -3,11 +3,12 @@ const bodyParser = require("body-parser");
 const app = express();
 const adminroutes = require("./routes/admin");
 const shoproutes = require("./routes/shop");
-
+const contactusroute = require("./routes/contactus");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/admin", adminroutes.router);
 app.use(shoproutes);
+app.use(contactusroute);
 
 app.use((req, res, next) => {
   res.status(404).send("<h1>Page Not Found</h1>");
